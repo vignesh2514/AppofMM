@@ -52,8 +52,7 @@ Emobile_number=(EditText) findViewById(R.id.mobile_text);
         if (session.isLoggedIn()) {
             // User is already logged in. Take him to main activity
             Intent intent = new Intent(LoginActivity.this, BasicActivity.class);
-            startActivity(intent);
-        }
+            startActivity(intent);        }
     }
     public  void logincheck(final String smobilenumber)
     {
