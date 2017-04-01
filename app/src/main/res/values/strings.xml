@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Moto Mecha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="logintext">Hey, What\'s your number? \n A One Time Password(OTP) will be \n sent via SMS to verify your number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="tandc">I agree to the terms and conditions</string>
+    <string name="title_activity_otp">OtpActivity</string>
+    <string name="otp_text">Enter the OTP below in case if we fail \n to detect the SMS Automatically</string>
+    <string name="otp_hint">OTP..</string>
+    <string name="title_activity_resgister">ResgisterActivity</string>
+    <string name="registration_login">Registration</string>
+    <string name="regist_name">Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="address_registration">Address</string>
+    <string name="welcm_screen">Welcome to Moto Mecha</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="intro_next">Next</string>
+    <string name="intro_skip">Skip</string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="8"
+    android:background="@drawable/hme_bg_without_flag"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.motomecha.app.BasicActivity"
+    tools:showIn="@layout/app_bar_basic">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/webView" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+android:background="?android:selectableItemBackground"
+        app:srcCompat="@drawable/offer_banner_image"
+        android:layout_below="@+id/webView"
+        android:layout_alignParentStart="true" />
+
+    <GridLayout
+    android:layout_width="wrap_content"
+    android:id="@+id/bike_car"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:orientation="horizontal"
+    android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            app:srcCompat="@drawable/bike_new" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            app:srcCompat="@drawable/car_new" />
+    </GridLayout>
+
+
+</RelativeLayout>

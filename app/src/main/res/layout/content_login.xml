@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.motomecha.app.LoginActivity"
+    android:background="@drawable/home_bg_bike"
+    tools:showIn="@layout/activity_login">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:padding="3dp"
+    android:layout_margin="30dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/registration_background"
+    tools:layout_editor_absoluteY="133dp"
+    tools:layout_editor_absoluteX="42dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="@string/logintext"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true" />
+
+
+
+    <EditText
+        android:id="@+id/mobile_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:textColorHint="@color/white"
+android:textColor="@color/white"
+        android:hint="@string/mobile_number"
+        android:backgroundTint="@color/white"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:text="@string/tandc"
+        android:textSize="12sp"
+        />
+
+    <ImageButton
+        android:id="@+id/login_continue"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:background="@drawable/login_continue"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_screen"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_my_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_vehicle"
+            android:icon="@drawable/ic_vehicle"
+            android:title="Vehicle" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_service_history"
+            android:title="Service History" />
+        <item
+            android:id="@+id/nav_buy_sell"
+            android:icon="@drawable/ic_buy_sell"
+            android:title="Buy Used Bikes" />
+        <item
+            android:id="@+id/nav_face"
+            android:icon="@drawable/ic_facebook_hme"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/nav_you_tube"
+            android:icon="@drawable/ic_you_tube"
+            android:title="Youtube" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_out"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_logt"
+            android:icon="@drawable/ic_log_out"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

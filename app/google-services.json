@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "244715733116",
+    "firebase_url": "https://motomecha-97b6c.firebaseio.com",
+    "project_id": "motomecha-97b6c",
+    "storage_bucket": "motomecha-97b6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244715733116:android:42f618d16970e427",
+        "android_client_info": {
+          "package_name": "com.motomecha.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244715733116-f88pbdm7vvosisua60iqlikdbic8tt51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.motomecha.app",
+            "certificate_hash": "6c947a2993ef693fef804522503208b717c82f59"
+          }
+        },
+        {
+          "client_id": "244715733116-d3cmvh01b9vijefmct7bcha0j6gq07gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqutkgHyNQ2t2A3Uq3XhPXXdKs1QXAV6M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244715733116-d3cmvh01b9vijefmct7bcha0j6gq07gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
